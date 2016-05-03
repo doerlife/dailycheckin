@@ -1,8 +1,8 @@
 
-#For Baihan Lin's daily practice#   
+#For Baihan Lin's daily practice   
 
 ## 05/01/2016   
-###Review Plan###   
+###Review Plan   
 
 1. Java     
   * Basic Syntax   
@@ -41,9 +41,9 @@
 15. Google   
 
 ## 05/03/2016   
-###Java Basic Syntax##   
+###Java Basic Syntax   
 
-**very basic**   
+**part i: very basic**   
 
 public class name {   
   public static void main(string[] args) {   
@@ -201,3 +201,73 @@ output to files
 
 Arrays
 * index: 0-based  
+* int[] numbers = new int[10];  // 0-9  
+* numbers[0] = 27;  
+* numbers.length  
+* type[] name = {value, value, ...};  
+* equals(array1, array2)  
+* fill(array, value)  // set every element in the array to be given value  
+* sort(array)   // sort into ascending order  
+* toString(array)  // "[10, 30, 7]"   
+* binarySearch(array, value)  // return index of given   value in sorted (< 0 if not found)  
+
+Value vs. Reference semantics
+* int[] a1 = {1, 2, 3}; int[] a2 = a1; // affect both  
+
+classes and objects  
+
+fields  
+* public class student {  
+  private String name;  
+  private double gpa;  
+}  
+
+instance method (vs. static)
+* only exists inside each object of a class  
+* public void shout() {}  
+
+Point class  
+* in Graphics  
+
+implicit parameter  
+* p1.draw(g)  // p1  
+
+kinds of methods  
+* accessor  // examine object state  
+* mutator  // modify an object's state  
+
+constructors  
+* run when use "new"  
+* public type(params) {  
+  statements;  
+}  
+* public Point(int initialX, int initialY) {  
+  x = initialX;  
+  y = initialY;  
+}  
+
+toString
+* every class has one
+
+this  
+* reference to implicit parameter  
+* this.fields  // refer to a field
+* this.method(params)  // call a method
+* this(params)  // call a constructor from another
+
+static methods  
+* part of a class, not part of an object  
+* shared by all objects of that class  
+* cannot use "this"  
+* if public, can be called outside  
+
+inheritance  
+* superclass vs. subclass  
+* public class Secretary extends Employee {}  
+* can override superclass's versions  
+* super.method() // can call overrider methods with super
+
+polymorphism  
+* can only use superclass if used like below:  
+* Employee ed = new LegalSecretary();  
+* can only call Employee, but not LegalSecretary
