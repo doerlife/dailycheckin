@@ -1,42 +1,203 @@
 
-For Baihan Lin's daily practice
-===========
+#For Baihan Lin's daily practice#   
 
-### 05/01/2016
-**Review Plan**
+## 05/01/2016   
+###Review Plan###   
 
-1. Java  
-  * Basic Syntax
-  * Key algorithms
-  * Interface
-  * GUI
+1. Java     
+  * Basic Syntax   
+  * Key algorithms   
+  * Interface   
+  * GUI   
 
-2. Algorithms  
+2. Algorithms     
 
-3. Data Structure  
+3. Data Structure     
 
-4. Mathematics  
+4. Mathematics     
 
-5. Neural Network   
+5. Neural Network      
 
-6. Data Mining  
+6. Data Mining     
 
-7. Cellular Automata  
+7. Cellular Automata     
 
-8. BGI  
+8. BGI     
 
-9. Matlab  
+9. Matlab     
 
-10. Perl  
-  * Regularization
+10. Perl     
+  * Regularization   
 
-11. R
-  * PCA
+11. R   
+  * PCA   
 
-12. C ??
+12. C ??   
 
-13. Microsoft
+13. Microsoft   
 
-14. IEE
+14. IEE   
 
-15. Google
+15. Google   
+
+## 05/03/2016   
+###Java Basic Syntax##   
+
+**very basic**   
+
+public class name {   
+  public static void main(string[] args) {   
+    statement;   
+  }   
+}   
+
+System.out.print("text");   
+System.out.println("text");   
+
+writing a static method is like adding a new command to Java   
+
+public static void name() {   
+  statement   
+}   
+
+name();   
+
+Java's primitive types   
+* int   
+* double   
+* char   
+* boolean   
+
+integer vs. real number   
+* integer division: 45 / 10 = 4   
+* integer remainder: 45 % 10 = 5   
+
+String concatenation:   
+* "hello" + 42 - 3*2 = "hello36"   
+
+Type casting   
+* double result = (double) 19/5;  // 3.8   
+
+increment   
+* int++; double--;   
+* x += 3; // x = x +3   
+* x \*= 2; // x = x * 2   
+
+for(initialization; test; update) {   
+  statement;   
+}   
+
+Variable scope   
+
+Class constants   
+* public static final int DAYS = 7;   
+
+Math Class   
+* Math.abs(x)   
+* Math.round(x)   
+* Math.ceil(x)   
+* Math.floor(x)   
+* Math.log10(x)   
+* Math.max(x, y) // Math.min(x, y)   
+* Math.pow(base, exp)   
+* Math.sqrt(x)   
+* Math.sin(x) // cos, tan   
+* Math.toDegrees(x) // toRadians   
+* Math.random // 0 to 1   
+* Math.E // Math.PI   
+
+public static double slope(int x, int y...) {   
+  statement;   
+  return ....;   
+}   
+
+Strings   
+* indexOf(str) // -1 if not there   
+* .length()   
+* substring(inclusive, exclusive); // index2 optional   
+* .toLowerCase() // .toUpperCase()   
+* equals(str)   
+* equalsIgnoreCase(str)   
+* startsWith(str)   
+* endsWith(str)   
+* contains(str)   
+* charAt(index)   
+
+char   
+* 'P' vs. "P"   
+
+printf   
+* System.out.printf("(%d, %d)\n", x, y) // (3, 2)   
+* System.out.printf("%4d %4.2f\n", x, y) // 3 2.00   
+
+DrawingPanel (canvas)   
+* DrawingPanel name = new DrawingPanel(width, height)   
+
+Graphics   
+* Graphics g = panel.getGraphics();   
+* g.drawLine(x1, y1, x2, y2)   
+* g.drawRect(x, y, w, h)   
+* g.fillRec(x, y, w, h) // g.fillOval(x, y, w, h)   
+* g.drawString(txt, x, y)   
+* g.setColor(Color)   
+
+Color   
+* Color name = new Color(r, g, b)   
+* constants (BLACK, BLUE, CYAN, GREEN...)   
+
+Scanner   
+* System.out // for print and println   
+* System.in // for Scanner   
+* Scanner name = new Scanner(System.in)   
+* Scanner console = new Scanner(System.in)   
+* nextint()   
+* nextDouble()   
+* next()  // String   
+* nextLine()  // String   
+* hasNext()  // hasNextint(), hasNextDouble(), hasNextLine()   
+
+if (test) {   
+  statement;   
+} else {   
+  statement;   
+}   
+
+test   
+* ==, !=, <, >, >=, <=   
+* &&, ||, !   
+* boolean minor = (age < 21);   
+
+loop-and-a-half   
+
+while (test) {   
+  statement;   
+}   
+
+do {   
+  statement;   
+} while (test)   
+
+Random Class   
+* Random rand = new Random();   
+* int randomNumber = rand.nextInt(10);   
+* nextInt(), nextDouble()   
+
+break   
+* exit a loop     
+
+reading files     
+* File file = new File("mydata.txt");     
+* Scanner input = new Scanner(file)     
+* Scanner input = new Scanner(new File("mydata.txt"));     
+
+throws   
+* public static type name(params) throws type { statement;}     
+
+output to files   
+* java.io   
+* PrintSteam out1 = System.out;  
+* PrintStream out2 = new PrintStream(new File("x.txt"));  
+*  out2.println("hello");  
+
+Arrays
+* index: 0-based  
