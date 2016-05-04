@@ -271,3 +271,7 @@ polymorphism
 * can only use superclass if used like below:  
 * Employee ed = new LegalSecretary();  
 * can only call Employee, but not LegalSecretary
+
+
+
+**part ii: medium**   
