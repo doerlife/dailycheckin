@@ -273,5 +273,43 @@ polymorphism
 * can only call Employee, but not LegalSecretary
 
 
+# 05/07/2016   
+###Java Basic Syntax   
 
 **part ii: medium**   
+
+ List
+ * [], [apple, ABC, hello]
+ * import java.util.\*;
+
+ ArrayList
+ * ArrayList<Type> name = new ArrayList<Type>()
+ * .add(value)
+ * .add(index, value)
+ * .clear()
+ * .indexOf(value)
+ * .get(index)
+ * .remove(index)
+ * .set(index, value)
+ * .size()
+ * .toString()
+
+ Exception
+ *  throw new Exception(value)
+
+ Binary Search
+ * sorted sequence
+ * insertionPoint + 1
+ * O(log2(N))
+
+ Complexity
+ * O(1)  // constant
+ * O(log2(N))  // logarithmic
+ * O(N)  // linear
+ * O(Nlog2(N)) // log-linear
+ * O(N^2)  // quadratic
+ * O(N^3)  // cubic
+ * O(2^N)  // exponential
+ * O(N!)
+
+ 
