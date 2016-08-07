@@ -42,7 +42,7 @@ alias gu="ga;gc \"update random\";gp;"
 alias sz="source ~/.bash_profile; cat ~/.zshrc.orig ~/.bash_profile > ~/.zshrc; source ~/.zshrc;"
 alias as="echo alias"
 
-alias rd="s;gi;cd doerlbh.github.io/_posts;cat << eof >> 0000-00-00-random.md;"
+alias rd="s;gi;cd doerlbh.github.io/_posts;cat << eof >> 1000-01-01-random.md;"
 
 
 export LC_CTYPE=C 
