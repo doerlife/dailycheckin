@@ -37,7 +37,7 @@ alias ga="git add *"
 alias gl="git log --pretty=oneline"
 alias gi="cd ~/Dropbox/git/"
 alias go="git checkout"
-alias gu="ga;gc \"update random\";gp;"
+alias gu="ga;gc \"update code\";gp;"
 
 alias sz="source ~/.bash_profile; cat ~/.zshrc.orig ~/.bash_profile > ~/.zshrc; source ~/.zshrc;"
 alias as="echo alias"
