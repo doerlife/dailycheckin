@@ -44,4 +44,6 @@ alias as="echo alias"
 export LC_CTYPE=C 
 export LANG=C
 
-alias bb="s;gi;cd dailycheckin;cp ~/.bash_profile bash_profile; cp ~/.zshrc zshrc; ga; gc "update rc";gp;o;"
+alias bb="s;gi;cd dailycheckin;cp ~/.bash_profile bash_profile; cp ~/.zshrc zshrc; ga; gc \"update rc\";gp;o;"
+
+
