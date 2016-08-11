@@ -85,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
+## here is .bash_profile
 
 # Setting PATH for Python 3.5
 # The orginal version is saved in .bash_profile.pysave
@@ -109,6 +109,7 @@ alias o='cd `cat ~/temppwd`'
 alias mo="more"
 alias he="head"
 alias ta="tail"
+alias le="less"
 
 alias dig="ssh -X sunnylin@fw.bakerlab.org"
 alias hy="ssh -X sunnylin@hyak.washington.edu"
@@ -129,7 +130,7 @@ alias sz="source ~/.bash_profile; cat ~/.zshrc.orig ~/.bash_profile > ~/.zshrc; 
 alias as="echo alias"
 
 alias rd="s;gi;cd doerlbh.github.io/_posts;cat << eof >> 2000-01-01-random.md;"
-
+alias dd="s;now=$(date +"%Y-%m-%d")-day.md;gi;cd doerblog.github.io/_posts/day/;cat << eof >> $now;"
 
 export LC_CTYPE=C 
 export LANG=C
