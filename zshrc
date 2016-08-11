@@ -130,7 +130,7 @@ alias sz="source ~/.bash_profile; cat ~/.zshrc.orig ~/.bash_profile > ~/.zshrc; 
 alias as="echo alias"
 
 alias rd="s;gi;cd doerlbh.github.io/_posts;cat << eof >> 2000-01-01-random.md;"
-alias dd="s;now=$(date +"%Y-%m-%d")-day.md;gi;cd doerblog.github.io/_posts/day/;cat << eof >> $now;"
+alias dd="s;now=$(date +"%Y-%m-%d")-day.md;gi;cd doerblog.github.io/_posts/day/;cp day.md $now;cat << eof >> $now;"
 
 export LC_CTYPE=C 
 export LANG=C
