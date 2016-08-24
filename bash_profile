@@ -51,4 +51,10 @@ export LANG=C
 
 alias bb="s;gi;cd dailycheckin;cp ~/.bash_profile bash_profile; cp ~/.zshrc zshrc; ga; gc \"update rc\";gp;o;"
 
+alias espresso="ssh -X sunnylin@espresso.amath.washington.edu"
+alias galao="ssh -X sunnylin@galao.amath.washington.edu"
+alias mocha="ssh -X sunnylin@mocha.amath.washington.edu"
+alias americano="ssh -X sunnylin@americano.amath.washington.edu"
+alias latte="ssh -X sunnylin@latte.amath.washington.edu"
+
 
