@@ -134,6 +134,7 @@ alias dd="s;now=$(date +"%Y-%m-%d")-day.md;gi;cd doerblog.github.io/_posts/day/;
 
 export LC_CTYPE=C 
 export LANG=C
+export LANG=en_US.UTF-8
 
 alias bb="s;gi;cd dailycheckin;cp ~/.bash_profile bash_profile; cp ~/.zshrc zshrc; ga; gc \"update rc\";gp;o;"
 
