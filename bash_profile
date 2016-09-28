@@ -46,8 +46,9 @@ alias as="echo alias"
 alias rd="s;gi;cd doerlbh.github.io/_posts;cat << eof >> 2000-01-01-random.md;"
 alias dd="s;now=$(date +"%Y-%m-%d")-day.md;gi;cd doerblog.github.io/_posts/day/;cp day.md $now;cat << eof >> $now;"
 
-export LC_CTYPE=C 
+#export LC_CTYPE=C 
 #export LANG=C
+export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 alias bb="s;gi;cd dailycheckin;cp ~/.bash_profile bash_profile; cp ~/.zshrc zshrc; ga; gc \"update rc\";gp;o;"
