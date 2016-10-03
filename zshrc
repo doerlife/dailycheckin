@@ -159,5 +159,8 @@ alias a531="open http://faculty.washington.edu/hqian/amath531/"
 
 alias lie="open http://www.bilibili.com/video/av2604435/"
 
+alias lief="open -a Firefox http://www.bilibili.com/video/av2604435/"
 
+alias ff="open -a Firefox "
+alias kc="pkill Chrome"
 
