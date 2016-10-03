@@ -51,6 +51,8 @@ alias dd="s;now=$(date +"%Y-%m-%d")-day.md;gi;cd doerblog.github.io/_posts/day/;
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
+alias lps="/Users/DoerLBH/Dropbox/Courses/4-1-2016Aut/MATH381/lp_solve_5.5.2.5_exe_osx32/lp_solve"
+
 alias bb="s;gi;cd dailycheckin;cp ~/.bash_profile bash_profile; cp ~/.zshrc zshrc; ga; gc \"update rc\";gp;o;"
 
 alias espresso="ssh -X sunnylin@espresso.amath.washington.edu"
