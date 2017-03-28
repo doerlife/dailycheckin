@@ -66,8 +66,9 @@ alias e="exit"
 alias co="open Dropbox/Courses/4-3-2017Spr/"
 alias c446="open https://courses.cs.washington.edu/courses/cse446/17sp/"
 alias c576="open https://courses.cs.washington.edu/courses/cse576/17sp/"
-alias a352="open https://canvas.uw.edu/courses/1137015"
-alias a353="open https://canvas.uw.edu/courses/1137016"
+alias a352="open https://canvas.uw.edu/courses/1137015/"
+alias a353="open https://canvas.uw.edu/courses/1137016/"
+alias e524="open https://canvas.uw.edu/courses/1137415/"
 
 alias lie="open http://www.bilibili.com/video/av2604435/"
 
