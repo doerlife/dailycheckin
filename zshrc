@@ -149,13 +149,11 @@ alias latte="ssh -X sunnylin@latte.amath.washington.edu"
 
 alias e="exit"
 
-alias co="open Dropbox/Courses/4-1-2016Aut/"
-alias m381="open http://www.math.washington.edu/~conroy/2016/m381-aut2016"
-alias c373="open https://courses.cs.washington.edu/courses/cse373/16au/"
-alias b440="open https://canvas.uw.edu/courses/1063285/"
-alias p355="open https://canvas.uw.edu/courses/1068987/"
-alias a422="open http://faculty.washington.edu/etsb/AMATH422/"
-alias a531="open http://faculty.washington.edu/hqian/amath531/"
+alias co="open Dropbox/Courses/4-3-2017Spr/"
+alias c446="open https://courses.cs.washington.edu/courses/cse446/17sp/"
+alias c576="open https://courses.cs.washington.edu/courses/cse576/17sp/"
+alias a352="open https://canvas.uw.edu/courses/1137015"
+alias a353="open https://canvas.uw.edu/courses/1137016"
 
 alias lie="open http://www.bilibili.com/video/av2604435/"
 
