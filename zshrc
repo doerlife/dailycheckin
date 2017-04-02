@@ -149,19 +149,19 @@ alias latte="ssh -X sunnylin@latte.amath.washington.edu"
 
 alias e="exit"
 
-alias co="open /Users/Dropbox/Courses/4-3-2017Spr/"
-alias next="open /Users/DoerLBH/Dropbox/Next/"
-alias c446="open https://courses.cs.washington.edu/courses/cse446/17sp/"
-alias c576="open https://courses.cs.washington.edu/courses/cse576/17sp/"
-alias a352="open https://canvas.uw.edu/courses/1137015/"
-alias a353="open https://canvas.uw.edu/courses/1137016/"
-alias e524="open https://canvas.uw.edu/courses/1137415/"
-alias e595="open https://canvas.uw.edu/courses/1138433/"
+alias co="open /Users/Dropbox/Courses/4-3-2017Spr/;e"
+alias next="open /Users/DoerLBH/Dropbox/Next/;e"
+alias c446="open https://courses.cs.washington.edu/courses/cse446/17sp/;e"
+alias c576="open https://courses.cs.washington.edu/courses/cse576/17sp/;e"
+alias a352="open https://canvas.uw.edu/courses/1137015/;e"
+alias a353="open https://canvas.uw.edu/courses/1137016/;e"
+alias e524="open https://canvas.uw.edu/courses/1137415/;e"
+alias e595="open https://canvas.uw.edu/courses/1138433/;e"
 
-alias lie="open http://www.bilibili.com/video/av2604435/"
+alias lie="open http://www.bilibili.com/video/av2604435/;e"
 
-alias lief="open -a Firefox http://www.bilibili.com/video/av2604435/"
+alias lief="open -a Firefox http://www.bilibili.com/video/av2604435/;e"
 
-alias ff="open -a Firefox "
+alias ff="open -a Firefox;e"
 alias kc="pkill Chrome"
 
