@@ -63,7 +63,7 @@ alias latte="ssh -X sunnylin@latte.amath.washington.edu"
 
 alias e="exit"
 
-alias co="open /Users/Dropbox/Courses/4-3-2017Spr/;e"
+alias co="open /Users/DoerLBH/Dropbox/Courses/4-3-2017Spr/;e"
 alias next="open /Users/DoerLBH/Dropbox/Next/;e"
 alias mail="open https://mail.google.com/mail/u/0/#inbox; open https://mail.google.com/mail/u/1/#inbox; e"
 
