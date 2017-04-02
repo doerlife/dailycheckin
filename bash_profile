@@ -65,6 +65,8 @@ alias e="exit"
 
 alias co="open /Users/Dropbox/Courses/4-3-2017Spr/;e"
 alias next="open /Users/DoerLBH/Dropbox/Next/;e"
+alias mail="open https://mail.google.com/mail/u/0/#inbox; open https://mail.google.com/mail/u/1/#inbox; e"
+
 alias c446="open https://courses.cs.washington.edu/courses/cse446/17sp/;e"
 alias c576="open https://courses.cs.washington.edu/courses/cse576/17sp/;e"
 alias a352="open https://canvas.uw.edu/courses/1137015/;e"
