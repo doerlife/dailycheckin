@@ -84,7 +84,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
 ## here is .bash_profile
 
 # Setting PATH for Python 3.5
@@ -99,6 +98,9 @@ export PATH
 
 # Setting PATH for blast
 PATH="/usr/local/bin/blast/bin:${PATH}"
+
+# Setting PATH for local bin
+PATH="/Users/DoerLBH/bin:${PATH}"
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
