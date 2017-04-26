@@ -3,12 +3,11 @@
 # Date: Apr 2017
 # to search pubmed of certain information
 
-n=$#
 term=""
-while [ n -gt 1 ] 
+for i
 do 
-    term=$term+$"$n"
-    let n-=1
+    term=$term$i+
 done
+term=${term%?}
 open "https://www.ncbi.nlm.nih.gov/pubmed/?term=$term"
 
