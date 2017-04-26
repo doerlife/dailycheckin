@@ -10,4 +10,4 @@ do
 done
 term=${term%?}
 open "https://www.ncbi.nlm.nih.gov/pubmed/?term=$term"
-
+exit

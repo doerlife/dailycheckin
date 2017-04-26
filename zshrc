@@ -116,6 +116,8 @@ alias le="less"
 alias dig="ssh -X sunnylin@fw.bakerlab.org"
 alias hy="ssh -X sunnylin@hyak.washington.edu"
 
+alias pubmed="sh /Users/DoerLBH/Dropbox/git/dailycheckin/pubmed.sh "
+
 alias ydl-b="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'"
 alias ydl-l="youtube-dl -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'"
 
