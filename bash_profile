@@ -50,6 +50,8 @@ alias as="echo alias"
 alias rd="s;gi;cd doerlbh.github.io/_posts;cat << eof >> 2000-01-01-random.md;"
 alias dd="s;now=$(date +"%Y-%m-%d")-day.md;gi;cd doerblog.github.io/_posts/day/;cp day.md $now;cat << eof >> $now;"
 
+alias subl="/Applications/Work/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
 #export LC_CTYPE=C 
 #export LANG=C
 export LC_ALL=en_US.UTF-8
@@ -64,12 +66,14 @@ alias galao="ssh -X sunnylin@galao.amath.washington.edu"
 alias mocha="ssh -X sunnylin@mocha.amath.washington.edu"
 alias americano="ssh -X sunnylin@americano.amath.washington.edu"
 alias latte="ssh -X sunnylin@latte.amath.washington.edu"
+alias c2b2="ssh -X bl2681@login.c2b2.columbia.edu"
 
 alias e="exit"
 
 alias co="open /Users/DoerLBH/Dropbox/Courses/4-3-2017Spr/;e"
 alias next="open /Users/DoerLBH/Dropbox/Next/;e"
 alias mail="open https://mail.google.com/mail/u/0/#inbox; open https://mail.google.com/mail/u/1/#inbox; e"
+alias research="cd /Users/DoerLBH/Dropbox/Research/;"
 
 alias c446="open https://courses.cs.washington.edu/courses/cse446/17sp/;e"
 alias c576="open https://courses.cs.washington.edu/courses/cse576/17sp/;e"
@@ -85,3 +89,6 @@ alias lief="open -a Firefox http://www.bilibili.com/video/av2604435/;e"
 alias ff="open -a Firefox;e"
 alias kc="pkill Chrome"
 
+
+# added by Anaconda3 4.4.0 installer
+export PATH="/Users/DoerLBH/anaconda/bin:$PATH"
