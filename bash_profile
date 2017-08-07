@@ -44,7 +44,7 @@ alias gi="cd ~/Dropbox/git/"
 alias go="git checkout"
 alias gu="ga;gc \"update code\";gp;"
 
-alias sz="source ~/.bash_profile; cat ~/.zshrc.orig ~/.bash_profile > ~/.zshrc; source ~/.zshrc;"
+alias sz="source ~/.bash_profile; cat ~/.zshrc.orig ~/.bash_profile > ~/.zshrc; source ~/.zshrc;bb;"
 alias as="echo alias"
 
 alias rd="s;gi;cd doerlbh.github.io/_posts;cat << eof >> 2000-01-01-random.md;"
