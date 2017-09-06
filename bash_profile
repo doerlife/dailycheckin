@@ -85,6 +85,7 @@ alias compLearn="open http://www.cs.columbia.edu/~cs4252/;e"
 alias dynRL="open https://djrusso.github.io/RLCourse/index;e"
 alias learn="open http://www.cs.columbia.edu/~djhsu/coms6998-f17/index.html;e"
 alias bandit="open http://alekhagarwal.net/bandits_and_rl/index.html;e"
+alias deepSeq="open https://courseworks2.columbia.edu/courses/44146;e"
 
 alias course="open http://www.columbia.edu/cu/bulletin/uwb/;e"
 
@@ -95,6 +96,9 @@ alias lief="open -a Firefox http://www.bilibili.com/video/av2604435/;e"
 alias ff="open -a Firefox;e"
 alias kc="pkill Chrome"
 
+
+# added by Anaconda3 4.4.0 installer
+export PATH="/Users/DoerLBH/anaconda/bin:$PATH"
 
 # added by Anaconda3 4.4.0 installer
 export PATH="/Users/DoerLBH/anaconda/bin:$PATH"
