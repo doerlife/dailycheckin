@@ -86,6 +86,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 ## here is .bash_profile
 
+# Setting PATH for Google Cloud SDK
+PATH="/Users/DoerLBH/google-cloud-sdk/bin:${PATH}"
+export PATH
+
 # Setting PATH for Python 3.5
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
