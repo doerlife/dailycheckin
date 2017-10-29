@@ -119,7 +119,8 @@ alias le="less"
 
 alias dig="ssh -X sunnylin@fw.bakerlab.org"
 alias hy="ssh -X sunnylin@hyak.washington.edu"
-alias gcp-gpu="ssh doerlbh@35.185.12.27"
+alias gcp-gpu-1="ssh doerlbh@35.185.12.27"
+alias gcp-gpu-2="ssh doerlbh@35.185.57.19"
 
 alias pubmed="sh /Users/DoerLBH/Dropbox/git/dailycheckin/pubmed.sh "
 
