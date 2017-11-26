@@ -18,6 +18,9 @@ export PATH
 # Setting PATH for blast
 PATH="/usr/local/bin/blast/bin:${PATH}"
 
+# Setting PATH for onTrack
+PATH="/Users/DoerLBH/Dropbox/git/onTrack:${PATH}"
+
 # Setting PATH for local bin
 PATH="/Users/DoerLBH/bin:${PATH}"
 
