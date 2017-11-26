@@ -118,6 +118,10 @@ export PATH="/Users/DoerLBH/anaconda/bin:$PATH"
 
 # added by Anaconda2 5.0.1 installer
 export PATH="/anaconda2/bin:$PATH"
+export PATH="/anaconda2/lib/python2.7/site-packages:$PATH"
 
 # added by Anaconda3 5.0.1 installer
 export PATH="/anaconda3/bin:$PATH"
+export PATH="/anaconda3/lib/python3.6/site-packages:$PATH"
+
+
