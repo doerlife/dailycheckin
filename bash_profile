@@ -12,6 +12,7 @@ export PATH
 # Setting PATH for Python 2.7
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+PATH="/usr/local/lib/python2.7/dist-packages:${PATH}"
 export PATH
 
 # Setting PATH for blast
@@ -109,3 +110,6 @@ export PATH="/Users/DoerLBH/anaconda/bin:$PATH"
 
 # added by Anaconda3 4.4.0 installer
 export PATH="/Users/DoerLBH/anaconda/bin:$PATH"
+
+# added by Anaconda2 5.0.1 installer
+export PATH="/anaconda2/bin:$PATH"
