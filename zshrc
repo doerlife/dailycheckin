@@ -118,6 +118,8 @@ alias he="head"
 alias ta="tail"
 alias le="less"
 
+alias track="sh /Users/DoerLBH/Dropbox/git/onTrack/main.sh"
+
 alias dig="ssh -X sunnylin@fw.bakerlab.org"
 alias hy="ssh -X sunnylin@hyak.washington.edu"
 alias gcp-gpu-1="ssh doerlbh@35.185.12.27"
@@ -199,3 +201,6 @@ export PATH="/Users/DoerLBH/anaconda/bin:$PATH"
 
 # added by Anaconda2 5.0.1 installer
 export PATH="/anaconda2/bin:$PATH"
+
+# added by Anaconda3 5.0.1 installer
+export PATH="/anaconda3/bin:$PATH"
