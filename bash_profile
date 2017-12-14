@@ -124,4 +124,7 @@ export PATH="/anaconda2/lib/python2.7/site-packages:$PATH"
 export PATH="/anaconda3/bin:$PATH"
 export PATH="/anaconda3/lib/python3.6/site-packages:$PATH"
 
+export PATH="/Users/DoerLBH/Dropbox/git/bioperl-live:/Users/DoerLBH/Dropbox (Personal)/git/bioperl-live/Bio:$PATH"
 
+# Added by install_latest_perl_osx.pl
+[ -r /Users/DoerLBH/.bashrc ] && source /Users/DoerLBH/.bashrc
