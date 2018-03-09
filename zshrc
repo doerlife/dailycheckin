@@ -195,6 +195,7 @@ alias lief="open -a Firefox http://www.bilibili.com/video/av2604435/;e"
 alias ff="open -a Firefox;e"
 alias kc="pkill Chrome"
 
+alias cuweb="ssh bl2681@cunix.cc.columbia.edu"
 
 # added by Anaconda3 4.4.0 installer
 export PATH="/Users/DoerLBH/anaconda/bin:$PATH"
@@ -214,3 +215,6 @@ export PATH="/Users/DoerLBH/Dropbox/git/bioperl-live:/Users/DoerLBH/Dropbox (Per
 
 # Added by install_latest_perl_osx.pl
 [ -r /Users/DoerLBH/.bashrc ] && source /Users/DoerLBH/.bashrc
+
+# added by Anaconda3 5.0.1 installer
+export PATH="/anaconda3/bin:$PATH"
