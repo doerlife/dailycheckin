@@ -110,7 +110,7 @@ alias ff="open -a Firefox;e"
 alias kc="pkill Chrome"
 
 alias cuweb="ssh bl2681@cunix.cc.columbia.edu"
-alias uwweb-"ssh sunnylin@vergil.u.washington.edu"
+alias uwweb="ssh sunnylin@vergil.u.washington.edu"
 
 # added by Anaconda3 4.4.0 installer
 export PATH="/Users/DoerLBH/anaconda/bin:$PATH"
