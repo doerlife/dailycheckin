@@ -65,6 +65,7 @@ alias dd="s;now=$(date +"%Y-%m-%d")-day.md;gi;cd doerblog.github.io/_posts/day/;
 alias subl="/Applications/Work/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 alias matlab="/Applications/Work/MATLAB_R2015b.app/bin/matlab"
+alias gmap="sh /Users/DoerLBH/Dropbox/git/dailycheckin/map.sh " 
 
 #export LC_CTYPE=C 
 #export LANG=C
