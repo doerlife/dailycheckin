@@ -169,6 +169,7 @@ alias americano="ssh -X sunnylin@americano.amath.washington.edu"
 alias latte="ssh -X sunnylin@latte.amath.washington.edu"
 alias c2b2="ssh -X bl2681@login.c2b2.columbia.edu"
 alias intron="ssh -X bl2681@intron.c2b2.columbia.edu"
+alias hub="ssh -X bl2681@habanero.rcs.columbia.edu"
 
 alias e="exit"
 
