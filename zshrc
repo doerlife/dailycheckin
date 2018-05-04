@@ -171,6 +171,8 @@ alias c2b2="ssh -X bl2681@login.c2b2.columbia.edu"
 alias intron="ssh -X bl2681@intron.c2b2.columbia.edu"
 alias hub="ssh -X bl2681@habanero.rcs.columbia.edu"
 
+alias raul="cd /Users/DoerLBH/Dropbox/Research/CU_Rabadan_Lab"
+
 alias e="exit"
 
 alias co="open /Users/DoerLBH/Dropbox/Courses/4-3-2017Spr/;e"
