@@ -121,6 +121,8 @@ alias he="head"
 alias ta="tail"
 alias le="less"
 
+alias imessage="/Users/DoerLBH/Dropbox/git/imessage"
+
 alias track="sh /Users/DoerLBH/Dropbox/git/onTrack/main.sh"
 
 alias dig="ssh -X sunnylin@fw.bakerlab.org"
