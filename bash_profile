@@ -16,7 +16,7 @@ export PATH="/usr/local/lib/python2.7/dist-packages:${PATH}"
 export PATH
 
 # what real Python executable to use
-# PYVER=3.6
+# PYVER=3.7
 # PYTHON=/Library/Frameworks/Python.framework/Versions/$PYVER/bin/python$PYVER
 
 # Setting PATH for blast
@@ -143,3 +143,6 @@ export PATH="/Users/DoerLBH/Dropbox/git/bioperl-live:/Users/DoerLBH/Dropbox (Per
 
 # added by Anaconda3 5.0.1 installer
 export PATH="/anaconda3/bin:$PATH"
+
+# added by Anaconda2 5.2.0 installer
+export PATH="/Users/DoerLBH/anaconda2/bin:$PATH"

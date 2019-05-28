@@ -229,3 +229,5 @@ export PATH="/Users/DoerLBH/Dropbox/git/bioperl-live:/Users/DoerLBH/Dropbox (Per
 
 # added by Anaconda3 5.0.1 installer
 export PATH="/anaconda3/bin:$PATH"
+export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
+export PATH="/usr/local/opt/llvm/bin:$PATH"
