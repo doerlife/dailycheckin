@@ -122,6 +122,8 @@ alias kc="pkill Chrome"
 alias cuweb="ssh bl2681@cunix.cc.columbia.edu"
 alias uwweb="ssh sunnylin@vergil.u.washington.edu"
 
+alias musicchina="npx @nondanee/unblockneteasemusic"
+
 # added by Anaconda3 4.4.0 installer
 export PATH="/Users/DoerLBH/anaconda/bin:$PATH"
 
@@ -133,7 +135,7 @@ export PATH="/anaconda2/bin:$PATH"
 export PATH="/anaconda2/lib/python2.7/site-packages:$PATH"
 
 # added by Anaconda3 5.0.1 installer
-export PATH="/anaconda3/bin:$PATH"
+# export PATH="/anaconda3/bin:$PATH"  # commented out by conda initialize
 export PATH="/anaconda3/lib/python3.6/site-packages:$PATH"
 
 export PATH="/Users/DoerLBH/Dropbox/git/bioperl-live:/Users/DoerLBH/Dropbox (Personal)/git/bioperl-live/Bio:$PATH"
@@ -142,7 +144,7 @@ export PATH="/Users/DoerLBH/Dropbox/git/bioperl-live:/Users/DoerLBH/Dropbox (Per
 [ -r /Users/DoerLBH/.bashrc ] && source /Users/DoerLBH/.bashrc
 
 # added by Anaconda3 5.0.1 installer
-export PATH="/anaconda3/bin:$PATH"
+# export PATH="/anaconda3/bin:$PATH"  # commented out by conda initialize
 
 # added by Anaconda2 5.2.0 installer
 export PATH="/Users/DoerLBH/anaconda2/bin:$PATH"
@@ -154,7 +156,7 @@ if [ $? -eq 0 ]; then
     \eval "$__conda_setup"
 else
     if [ -f "/Users/DoerLBH/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/DoerLBH/anaconda3/etc/profile.d/conda.sh"
+# . "/Users/DoerLBH/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
         CONDA_CHANGEPS1=false conda activate base
     else
         \export PATH="/Users/DoerLBH/anaconda3/bin:$PATH"
@@ -170,7 +172,7 @@ if [ $? -eq 0 ]; then
     \eval "$__conda_setup"
 else
     if [ -f "/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/anaconda3/etc/profile.d/conda.sh"
+# . "/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
         CONDA_CHANGEPS1=false conda activate base
     else
         \export PATH="/anaconda3/bin:$PATH"
@@ -186,7 +188,7 @@ if [ $? -eq 0 ]; then
     \eval "$__conda_setup"
 else
     if [ -f "/Users/DoerLBH/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/DoerLBH/anaconda3/etc/profile.d/conda.sh"
+# . "/Users/DoerLBH/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
         CONDA_CHANGEPS1=false conda activate base
     else
         \export PATH="/Users/DoerLBH/anaconda3/bin:$PATH"
@@ -194,3 +196,19 @@ else
 fi
 unset __conda_setup
 # <<< conda init <<<
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
