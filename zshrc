@@ -90,9 +90,9 @@ source $ZSH/oh-my-zsh.sh
 export PATH="/Users/DoerLBH/google-cloud-sdk/bin:${PATH}"
 export PATH
 
-# Setting PATH for Python 3.5
+# Setting PATH for Python 3.7
 # The orginal version is saved in .bash_profile.pysave
-export PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+export PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
 export PATH
 
 # Setting PATH for Python 2.7
@@ -102,7 +102,7 @@ export PATH="/usr/local/lib/python2.7/dist-packages:${PATH}"
 export PATH
 
 # what real Python executable to use
-# PYVER=3.6
+# PYVER=3.7
 # PYTHON=/Library/Frameworks/Python.framework/Versions/$PYVER/bin/python$PYVER
 
 # Setting PATH for blast
@@ -208,6 +208,8 @@ alias kc="pkill Chrome"
 alias cuweb="ssh bl2681@cunix.cc.columbia.edu"
 alias uwweb="ssh sunnylin@vergil.u.washington.edu"
 
+alias musicchina="npx @nondanee/unblockneteasemusic"
+
 # added by Anaconda3 4.4.0 installer
 export PATH="/Users/DoerLBH/anaconda/bin:$PATH"
 
@@ -229,12 +231,61 @@ export PATH="/Users/DoerLBH/Dropbox/git/bioperl-live:/Users/DoerLBH/Dropbox (Per
 
 # added by Anaconda3 5.0.1 installer
 # export PATH="/anaconda3/bin:$PATH"  # commented out by conda initialize
-export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
-export PATH="/usr/local/opt/llvm/bin:$PATH"
+
+# added by Anaconda2 5.2.0 installer
+export PATH="/Users/DoerLBH/anaconda2/bin:$PATH"
+# added by Anaconda3 2019.03 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/Users/DoerLBH/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/Users/DoerLBH/anaconda3/etc/profile.d/conda.sh" ]; then
+# . "/Users/DoerLBH/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/Users/DoerLBH/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda init <<<
+# added by Anaconda3 2019.03 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/anaconda3/etc/profile.d/conda.sh" ]; then
+# . "/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda init <<<
+# added by Anaconda3 2019.03 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/Users/DoerLBH/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/Users/DoerLBH/anaconda3/etc/profile.d/conda.sh" ]; then
+# . "/Users/DoerLBH/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/Users/DoerLBH/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda init <<<
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
@@ -247,3 +298,19 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# added by Anaconda3 2019.10 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/Users/DoerLBH/opt/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/Users/DoerLBH/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/DoerLBH/opt/anaconda3/etc/profile.d/conda.sh"
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/Users/DoerLBH/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda init <<<
