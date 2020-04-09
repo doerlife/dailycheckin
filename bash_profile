@@ -110,7 +110,7 @@ alias learn="open http://www.cs.columbia.edu/~djhsu/coms6998-f17/index.html;e"
 alias bandit="open http://alekhagarwal.net/bandits_and_rl/index.html;e"
 alias deepSeq="open https://courseworks2.columbia.edu/courses/44146;e"
 
-alias course="open http://www.columbia.edu/cu/bulletin/uwb/;e"
+alias course="open /Users/DoerLBH/Dropbox/Grad_Courses/;e"
 
 alias lie="open http://www.bilibili.com/video/av2604435/;e"
 
